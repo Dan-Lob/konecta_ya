@@ -1,4 +1,4 @@
-# flutter_application_1
+# konecta_go
 
 A new Flutter project.
 
