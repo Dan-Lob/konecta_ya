@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_application_1/core/config/env.dart';
+import 'package:konecta_go/core/config/env.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final dioProvider = Provider<Dio>((ref) {

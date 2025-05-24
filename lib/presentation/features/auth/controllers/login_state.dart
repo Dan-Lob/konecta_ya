@@ -1,6 +1,6 @@
 // lib/presentation/features/auth/controllers/login_state.dart
 
-import 'package:flutter_application_1/domain/entities/auth/login_response.dart';
+import 'package:konecta_go/domain/entities/auth/login_response.dart';
 
 enum LoginStatus { initial, loading, success, error }
 

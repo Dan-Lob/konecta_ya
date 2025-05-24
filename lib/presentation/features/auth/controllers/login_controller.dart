@@ -1,11 +1,11 @@
 // lib/presentation/features/auth/controllers/login_controller.dart
 
-import 'package:flutter_application_1/presentation/shared/providers/secure_storage_provider.dart';
-import 'package:flutter_application_1/presentation/shared/providers/shared_providers.dart';
+import 'package:konecta_go/presentation/shared/providers/secure_storage_provider.dart';
+import 'package:konecta_go/presentation/shared/providers/shared_providers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_application_1/data/models/auth/login_request_model.dart';
-import 'package:flutter_application_1/domain/usecases/auth/login_usecase.dart';
-import 'package:flutter_application_1/presentation/features/auth/controllers/login_state.dart';
+import 'package:konecta_go/data/models/auth/login_request_model.dart';
+import 'package:konecta_go/domain/usecases/auth/login_usecase.dart';
+import 'package:konecta_go/presentation/features/auth/controllers/login_state.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 final loginControllerProvider =
